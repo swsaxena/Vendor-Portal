@@ -1,0 +1,11 @@
+{
+  "name": "sap-btp-vendor-portal",
+  "version": "1.0.0",
+  "description": "SAP BTP Vendor Management Portal - Complete Solution",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm run install:frontend && npm run install:backend",
+    "install:frontend": "cd frontend/vendor-portal-ui && npm install",
+    "install:backend": "npm run"
+  }
+}
